@@ -700,6 +700,7 @@ function CarjackVehicle(target)
 end
 
 function AttemptPoliceAlert(type)
+    return
     if not AlertSend then
         local chance = Config.PoliceAlertChance
         if GetClockHours() >= 1 and GetClockHours() <= 6 then
