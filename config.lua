@@ -10,7 +10,7 @@ Config.LockToggleAnimation = {
 }
 Config.LockAnimSound = "keys"
 Config.LockToggleSound = "lock"
-Config.LockToggleDist = 8.0
+Config.LockToggleDist = 4.0
 
 -- NPC Vehicle Lock States
 Config.LockNPCDrivingCars = false     -- Lock state for NPC cars being driven by NPCs [true = locked, false = unlocked]
